@@ -1,0 +1,57 @@
+split	label	subject	body
+train	0	Updated draft of the quarterly forecast	I fixed the headcount assumptions in the spreadsheet. Would you check the totals for operations before I send the revised copy?
+train	0	Standup moved upstairs	The room on the ground floor is booked. Let's gather in the smaller conference room at half past nine instead.
+train	0	Dinner on Tuesday	We're making pasta at home after work. Are you and Sam around to join us?
+train	0	Travel reimbursement approved	The finance office approved your train receipt. The amount will appear in the next expense payment.
+train	0	Can you cover the opening shift?	My train is running late this morning. I can take your closing shift on Saturday if that helps.
+train	0	Library return reminder	The atlas you borrowed is due this week. You can renew it using your usual library account.
+train	0	Order confirmation	We received your order for two replacement filters. The warehouse will send a tracking number once they leave the depot.
+train	0	New student orientation	Welcome to the department. Please meet your tutor outside the lecture theatre and collect your timetable at the desk.
+train	0	Sign-off on the test results	All checks passed in staging. Could you review the deployment notes before we schedule the release?
+train	0	Concert rehearsal	Please pencil in Thursday evening for the strings rehearsal and bring your marked score.
+train	0	Security training	The workshop will cover how to report suspicious links and why you should never share a verification code. Enrollment is open in the staff portal.
+train	0	Your sign-in code	Use this code to finish signing in on the device where you started your request. It expires in ten minutes.
+train	0	Notes from the planning session	I attached a summary of the decisions we made and listed the owners of the remaining action items. Thanks for your input.
+train	0	Invoice correction	Thanks for spotting the tax error. Our accounts team will send a corrected invoice referencing the same purchase order.
+train	0	Clinic visit reminder	Your follow-up is booked for Friday morning. Check in on the second floor and bring the referral letter.
+train	0	Deadline for peer reviews	Please add your comments to the shared draft by the end of the week. The authors need time to make corrections.
+train	0	Delivery window	Your new chair will be delivered on Monday afternoon. Reply if you need us to use the loading entrance.
+train	0	Benefit enrollment	Staff can update dependent information in the employee portal until the end of the month. Payroll can help with questions.
+train	0	Could you forward the slide deck?	I missed the last part of the presentation because my connection dropped. I'd like to read the section about the migration.
+train	0	Lost water bottle	Did anyone find a blue bottle in the seminar room after lunch? I can pick it up from reception.
+train	0	Welcome to the volunteer crew	Thank you for helping with Saturday's cleanup. Gloves and bags will be available at the park entrance.
+train	0	Grant application status	The panel has finished reviewing your proposal. The decision letter will be available through the applicant portal next week.
+train	0	Annual service appointment	Our engineer has reserved a slot to inspect the heating system. Please let the caretaker know when access is convenient.
+train	0	Reminder about tomorrow's rehearsal	The director wants to run the last scene twice. Please have the props ready when the afternoon session begins.
+train	0	PR review requested	I fixed the pagination bug and added a test for an empty page. Can you take another look at the changes?
+train	0	Question about my assignment	I completed the first two exercises but could use help understanding the last diagram. Are you available after class?
+train	0	Agenda for the committee	We will discuss catering, accessibility and room bookings. Please send additions to the secretary before Wednesday.
+train	0	Update on the prototype	The new bracket fits the enclosure. The next step is checking how it behaves under load. I will share the measurements on Friday.
+train	0	Workshop registration confirmed	We have reserved a seat for you at the ceramics workshop. Wear clothes you do not mind getting messy.
+train	0	Payment received	Your electricity bill has been paid by direct debit. You can view the breakdown in your customer account.
+train	1	Quarter million payout	You have been picked in the international cash draw. Wire the administration fee to collect your winnings today.
+train	1	Guaranteed currency profits	Our trading robot doubles deposits in five days. Send bitcoin to join this private investment opportunity.
+train	1	Account locked immediately	Respond with your username and current password now or your account will be permanently suspended.
+train	1	Cheap medicines direct	Order prescription tablets without a consultation. Bulk discounts and discreet shipping are available worldwide.
+train	1	Work from anywhere	Earn thousands a week processing payments for our agents. Deposit the registration fee to start earning immediately.
+train	1	Exclusive search ranking offer	Buy our backlink bundle today and dominate every search result overnight. Limited slots available.
+train	1	Re: payroll form	Your salary cannot be processed until you confirm your bank credentials at our verification site. Complete this action urgently.
+train	1	Funds release notice	Our attorney needs a deposit to unlock your overseas settlement. Forward your identification and transfer receipt.
+train	1	Winner selected	Claim your free holiday now. Send your credit card information for the mandatory reservation fee.
+train	1	No credit check	Instant cash loans approved for everyone. Pay the processing charge in advance to receive your transfer.
+validation	0	Water shutoff	The plumber will isolate the supply between ten and eleven on Wednesday. Please fill the kitchen kettle beforehand.
+validation	0	Recruitment panel availability	I can take the afternoon slot for the graduate interviews. Has anyone confirmed the room with reception?
+validation	0	Receipt for your donation	Your contribution was received yesterday. A copy of the receipt is attached for your records.
+validation	0	Cycling on Saturday	Shall we start at the railway bridge and ride to the coast? I'll pack a pump and a spare tube.
+validation	0	Revision requested	The reviewer asked us to clarify the sampling procedure. I have added a paragraph to the methods section.
+validation	0	Return label generated	We processed your request to return the shoes. Please place both shoes in the original box and include the packing slip.
+validation	0	Reminder to submit grades	Final marks are due on the faculty system this Friday. Please speak to the registrar about any missing records.
+validation	0	Urgent freezer alarm	The sensor in the sample freezer is reporting a temperature rise. Can whoever is on duty check the door seal?
+validation	1	Hotel voucher awarded	You have been selected for a free resort stay. Transfer the reservation charge to claim your voucher now.
+validation	1	Wire funds today	Our confidential investment pays guaranteed interest every day. Move your savings before enrollment closes.
+validation	1	Credential expiry	Your corporate access expires today. Email your old password and security answers to reactivate your profile.
+validation	1	Designer replicas	Order premium imitation watches at a fraction of the retail cost. Fast worldwide delivery while supplies last.
+validation	1	Recover your lost crypto	We located your missing cryptocurrency. Send a wallet activation deposit and our specialist will return your balance.
+validation	1	Request from the director	I am stuck on a call. Purchase prepaid vouchers for a client and send me the redemption numbers right away.
+validation	1	Guaranteed diploma	Obtain an accredited degree without attending class or taking exams. Order your certificate this week for a discount.
+validation	1	Undelivered package	Your delivery has been put on hold. Use the payment page to enter your bank details and settle the release charge.

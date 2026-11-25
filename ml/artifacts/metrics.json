@@ -1,0 +1,471 @@
+{
+  "dataset": {
+    "source": "https://spamassassin.apache.org/old/publiccorpus/",
+    "sha256": {
+      "20030228_easy_ham.tar.bz2": "2b7b65904bcfcc31d2b5f51946f2d261370b257402cbbd62930b46ab83367438",
+      "20030228_easy_ham_2.tar.bz2": "b4bd3dc5ae5b40f38e99a0e41ad7d16b428b56e818e3a6ffa07330d62004dd38",
+      "20030228_hard_ham.tar.bz2": "ce2ce67880643dbde65ea7f85bffbfe4417349c4bd80b6b0de56262ae6b0a9c9",
+      "20030228_spam.tar.bz2": "c08debc32413804949a866be45ef78195cec2cbafd1da744ed76cdb860589743",
+      "20050311_spam_2.tar.bz2": "44280a0e28bf7645b2279e8e42659271ad82c6f40bf8d364dbda7f1df344a765"
+    },
+    "raw": {
+      "legitimate": 4150,
+      "spam": 1896
+    },
+    "clean": {
+      "legitimate": 4107,
+      "spam": 1786
+    },
+    "missing_subject": 19,
+    "missing_body": 6,
+    "empty": 0,
+    "duplicates": 153,
+    "conflicting_groups": 0,
+    "median_chars": 1169,
+    "p95_chars": 10877
+  },
+  "seed": 42,
+  "sklearn": "1.9.1",
+  "splits": {
+    "train": {
+      "legitimate": 2903,
+      "spam": 1234
+    },
+    "validation": {
+      "legitimate": 616,
+      "spam": 266
+    },
+    "short_validation": {
+      "legitimate": 8,
+      "spam": 8
+    },
+    "test": {
+      "legitimate": 616,
+      "spam": 268
+    },
+    "challenge": {
+      "legitimate": 16,
+      "spam": 16
+    }
+  },
+  "validation": {
+    "Multinomial Naive Bayes": {
+      "accuracy": 0.9807256235827665,
+      "precision": 0.9882352941176471,
+      "recall": 0.9473684210526315,
+      "f1": 0.9673704414587332,
+      "confusion": [
+        [
+          613,
+          3
+        ],
+        [
+          14,
+          252
+        ]
+      ],
+      "fpr": 0.00487012987012987,
+      "brier": 0.015259105774526098
+    },
+    "Logistic Regression": {
+      "accuracy": 0.9863945578231292,
+      "precision": 0.9847328244274809,
+      "recall": 0.9699248120300752,
+      "f1": 0.9772727272727273,
+      "confusion": [
+        [
+          612,
+          4
+        ],
+        [
+          8,
+          258
+        ]
+      ],
+      "fpr": 0.006493506493506494,
+      "brier": 0.011251810718319846
+    },
+    "Linear SVM": {
+      "accuracy": 0.9863945578231292,
+      "precision": 0.9810606060606061,
+      "recall": 0.9736842105263158,
+      "f1": 0.9773584905660377,
+      "confusion": [
+        [
+          611,
+          5
+        ],
+        [
+          7,
+          259
+        ]
+      ],
+      "fpr": 0.008116883116883116,
+      "brier": 0.010081111814787385
+    },
+    "Random Forest": {
+      "accuracy": 0.9784580498866213,
+      "precision": 0.9625468164794008,
+      "recall": 0.9661654135338346,
+      "f1": 0.9643527204502814,
+      "confusion": [
+        [
+          606,
+          10
+        ],
+        [
+          9,
+          257
+        ]
+      ],
+      "fpr": 0.016233766233766232,
+      "brier": 0.019021753981760536
+    }
+  },
+  "short_validation": {
+    "Multinomial Naive Bayes": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "confusion": [
+        [
+          8,
+          0
+        ],
+        [
+          0,
+          8
+        ]
+      ],
+      "fpr": 0.0,
+      "brier": 0.034100128471087815
+    },
+    "Logistic Regression": {
+      "accuracy": 0.875,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571,
+      "confusion": [
+        [
+          8,
+          0
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "fpr": 0.0,
+      "brier": 0.07822493085763041
+    },
+    "Linear SVM": {
+      "accuracy": 0.875,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571,
+      "confusion": [
+        [
+          8,
+          0
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "fpr": 0.0,
+      "brier": 0.06792134535389971
+    },
+    "Random Forest": {
+      "accuracy": 0.8125,
+      "precision": 1.0,
+      "recall": 0.625,
+      "f1": 0.7692307692307693,
+      "confusion": [
+        [
+          8,
+          0
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "fpr": 0.0,
+      "brier": 0.18438006386322775
+    }
+  },
+  "train": {
+    "Multinomial Naive Bayes": {
+      "accuracy": 0.991781484167271,
+      "precision": 0.9878048780487805,
+      "recall": 0.9846029173419774,
+      "f1": 0.9862012987012987,
+      "confusion": [
+        [
+          2888,
+          15
+        ],
+        [
+          19,
+          1215
+        ]
+      ],
+      "fpr": 0.005167068549776094,
+      "brier": 0.006191924942028198
+    },
+    "Logistic Regression": {
+      "accuracy": 0.9980662315687696,
+      "precision": 0.9951534733441034,
+      "recall": 0.9983792544570502,
+      "f1": 0.9967637540453075,
+      "confusion": [
+        [
+          2897,
+          6
+        ],
+        [
+          2,
+          1232
+        ]
+      ],
+      "fpr": 0.0020668274199104374,
+      "brier": 0.002400065740892812
+    },
+    "Linear SVM": {
+      "accuracy": 0.9997582789460963,
+      "precision": 1.0,
+      "recall": 0.9991896272285251,
+      "f1": 0.9995946493717065,
+      "confusion": [
+        [
+          2903,
+          0
+        ],
+        [
+          1,
+          1233
+        ]
+      ],
+      "fpr": 0.0,
+      "brier": 0.0002660100398740327
+    },
+    "Random Forest": {
+      "accuracy": 0.9997582789460963,
+      "precision": 0.9991902834008097,
+      "recall": 1.0,
+      "f1": 0.9995949777237748,
+      "confusion": [
+        [
+          2902,
+          1
+        ],
+        [
+          0,
+          1234
+        ]
+      ],
+      "fpr": 0.0003444712366517396,
+      "brier": 0.00028319463614027393
+    }
+  },
+  "thresholds": {
+    "Multinomial Naive Bayes": 0.45,
+    "Logistic Regression": 0.55,
+    "Linear SVM": 0.5,
+    "Random Forest": 0.35
+  },
+  "policy_cost": {
+    "Multinomial Naive Bayes": 0.03605604921394398,
+    "Logistic Regression": 0.1530246069719754,
+    "Linear SVM": 0.15439166097060833,
+    "Random Forest": 0.2368848257006152
+  },
+  "test_all": {
+    "Multinomial Naive Bayes": {
+      "accuracy": 0.9717194570135747,
+      "precision": 0.9655172413793104,
+      "recall": 0.9402985074626866,
+      "f1": 0.9527410207939508,
+      "confusion": [
+        [
+          607,
+          9
+        ],
+        [
+          16,
+          252
+        ]
+      ],
+      "fpr": 0.01461038961038961,
+      "brier": 0.0236856133509271
+    },
+    "Logistic Regression": {
+      "accuracy": 0.9705882352941176,
+      "precision": 0.9583333333333334,
+      "recall": 0.9440298507462687,
+      "f1": 0.9511278195488722,
+      "confusion": [
+        [
+          605,
+          11
+        ],
+        [
+          15,
+          253
+        ]
+      ],
+      "fpr": 0.017857142857142856,
+      "brier": 0.020173343507114454
+    },
+    "Linear SVM": {
+      "accuracy": 0.9773755656108597,
+      "precision": 0.9696969696969697,
+      "recall": 0.9552238805970149,
+      "f1": 0.9624060150375939,
+      "confusion": [
+        [
+          608,
+          8
+        ],
+        [
+          12,
+          256
+        ]
+      ],
+      "fpr": 0.012987012987012988,
+      "brier": 0.01640762550830819
+    },
+    "Random Forest": {
+      "accuracy": 0.9660633484162896,
+      "precision": 0.9473684210526315,
+      "recall": 0.9402985074626866,
+      "f1": 0.9438202247191011,
+      "confusion": [
+        [
+          602,
+          14
+        ],
+        [
+          16,
+          252
+        ]
+      ],
+      "fpr": 0.022727272727272728,
+      "brier": 0.024017672723291632
+    }
+  },
+  "challenge": {
+    "Multinomial Naive Bayes": {
+      "accuracy": 0.90625,
+      "precision": 0.8421052631578947,
+      "recall": 1.0,
+      "f1": 0.9142857142857143,
+      "confusion": [
+        [
+          13,
+          3
+        ],
+        [
+          0,
+          16
+        ]
+      ],
+      "fpr": 0.1875,
+      "brier": 0.08938728739872204
+    },
+    "Logistic Regression": {
+      "accuracy": 0.875,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.8888888888888888,
+      "confusion": [
+        [
+          12,
+          4
+        ],
+        [
+          0,
+          16
+        ]
+      ],
+      "fpr": 0.25,
+      "brier": 0.10428234962684155
+    },
+    "Linear SVM": {
+      "accuracy": 0.90625,
+      "precision": 0.8823529411764706,
+      "recall": 0.9375,
+      "f1": 0.9090909090909091,
+      "confusion": [
+        [
+          14,
+          2
+        ],
+        [
+          1,
+          15
+        ]
+      ],
+      "fpr": 0.125,
+      "brier": 0.06894864254832754
+    },
+    "Random Forest": {
+      "accuracy": 0.75,
+      "precision": 0.9,
+      "recall": 0.5625,
+      "f1": 0.6923076923076923,
+      "confusion": [
+        [
+          15,
+          1
+        ],
+        [
+          7,
+          9
+        ]
+      ],
+      "fpr": 0.0625,
+      "brier": 0.19479245225926162
+    }
+  },
+  "reported_spam_probabilities": {
+    "Multinomial Naive Bayes": [
+      0.09711183467515472,
+      0.9938064648770314
+    ],
+    "Logistic Regression": [
+      0.7235431290494064,
+      0.9994448433731103
+    ],
+    "Linear SVM": [
+      0.5434217387267009,
+      0.9993273189473149
+    ],
+    "Random Forest": [
+      0.2972001151283659,
+      0.9869708595213467
+    ]
+  },
+  "winner": "Multinomial Naive Bayes",
+  "threshold": 0.45,
+  "test": {
+    "accuracy": 0.9717194570135747,
+    "precision": 0.9655172413793104,
+    "recall": 0.9402985074626866,
+    "f1": 0.9527410207939508,
+    "confusion": [
+      [
+        607,
+        9
+      ],
+      [
+        16,
+        252
+      ]
+    ],
+    "fpr": 0.01461038961038961,
+    "brier": 0.0236856133509271
+  }
+}

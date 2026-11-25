@@ -1,0 +1,219 @@
+{
+  "archive": {
+    "Linear SVM": {
+      "accuracy": 0.9875565610859729,
+      "precision": 0.9885931558935361,
+      "recall": 0.9701492537313433,
+      "f1": 0.9792843691148776,
+      "confusion": [
+        [
+          613,
+          3
+        ],
+        [
+          8,
+          260
+        ]
+      ],
+      "fpr": 0.00487012987012987,
+      "brier": 0.01064699955242591
+    },
+    "Multinomial Naive Bayes": {
+      "accuracy": 0.9785067873303167,
+      "precision": 0.9770114942528736,
+      "recall": 0.9514925373134329,
+      "f1": 0.9640831758034026,
+      "confusion": [
+        [
+          610,
+          6
+        ],
+        [
+          13,
+          255
+        ]
+      ],
+      "fpr": 0.00974025974025974,
+      "brier": 0.017140314840025275
+    },
+    "Logistic Regression": {
+      "accuracy": 0.9807692307692307,
+      "precision": 0.9808429118773946,
+      "recall": 0.9552238805970149,
+      "f1": 0.9678638941398866,
+      "confusion": [
+        [
+          611,
+          5
+        ],
+        [
+          12,
+          256
+        ]
+      ],
+      "fpr": 0.008116883116883116,
+      "brier": 0.013267511447562903
+    },
+    "Random Forest": {
+      "accuracy": 0.9785067873303167,
+      "precision": 0.9806949806949807,
+      "recall": 0.9477611940298507,
+      "f1": 0.9639468690702088,
+      "confusion": [
+        [
+          611,
+          5
+        ],
+        [
+          14,
+          254
+        ]
+      ],
+      "fpr": 0.008116883116883116,
+      "brier": 0.017063033424049655
+    }
+  },
+  "challenge": {
+    "Linear SVM": {
+      "accuracy": 0.875,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.8888888888888888,
+      "confusion": [
+        [
+          12,
+          4
+        ],
+        [
+          0,
+          16
+        ]
+      ],
+      "fpr": 0.25,
+      "brier": 0.12639722493840685
+    },
+    "Multinomial Naive Bayes": {
+      "accuracy": 0.875,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.8888888888888888,
+      "confusion": [
+        [
+          12,
+          4
+        ],
+        [
+          0,
+          16
+        ]
+      ],
+      "fpr": 0.25,
+      "brier": 0.11528407833774207
+    },
+    "Logistic Regression": {
+      "accuracy": 0.84375,
+      "precision": 0.7619047619047619,
+      "recall": 1.0,
+      "f1": 0.8648648648648649,
+      "confusion": [
+        [
+          11,
+          5
+        ],
+        [
+          0,
+          16
+        ]
+      ],
+      "fpr": 0.3125,
+      "brier": 0.13944952816034115
+    },
+    "Random Forest": {
+      "accuracy": 0.75,
+      "precision": 0.8333333333333334,
+      "recall": 0.625,
+      "f1": 0.7142857142857143,
+      "confusion": [
+        [
+          14,
+          2
+        ],
+        [
+          6,
+          10
+        ]
+      ],
+      "fpr": 0.125,
+      "brier": 0.15561125643430423
+    }
+  },
+  "meeting": {
+    "Linear SVM": 0.7594258903556992,
+    "Multinomial Naive Bayes": 0.2835444058988516,
+    "Logistic Regression": 0.8669881774145365,
+    "Random Forest": 0.7892617421598761
+  },
+  "corpus_audit": {
+    "0": {
+      "messages": 4107,
+      "quoted": 2176,
+      "reply_or_footer_boundary": 2537,
+      "embedded_routing": 45
+    },
+    "1": {
+      "messages": 1786,
+      "quoted": 57,
+      "reply_or_footer_boundary": 372,
+      "embedded_routing": 20
+    }
+  },
+  "svm_most_legitimate_terms": [
+    "the",
+    "re",
+    "2002",
+    "url webaddress",
+    "webaddress date",
+    "but",
+    "wrote",
+    "that",
+    "date",
+    "url",
+    "spam",
+    "users",
+    "jim",
+    "it",
+    "not",
+    "razor",
+    "said",
+    "of",
+    "03",
+    "rpm"
+  ],
+  "meeting_positive_features": [
+    [
+      "your",
+      0.16288727194136593
+    ],
+    [
+      "our",
+      0.1198712287677841
+    ],
+    [
+      "please",
+      0.11516509653116172
+    ],
+    [
+      "am",
+      0.060148800870230446
+    ],
+    [
+      "you",
+      0.05563358876401843
+    ],
+    [
+      "on your",
+      0.0416783618077743
+    ]
+  ],
+  "meeting_margin": 0.09240427231106171
+}
